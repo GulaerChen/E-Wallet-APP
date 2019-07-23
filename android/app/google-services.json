@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "372314590569",
+    "firebase_url": "https://flutterdemo-33cc0.firebaseio.com",
+    "project_id": "flutterdemo-33cc0",
+    "storage_bucket": "flutterdemo-33cc0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:372314590569:android:f363f262aa1fd363",
+        "android_client_info": {
+          "package_name": "com.example.drawer_demo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "372314590569-4b83da2kbgvfmml1tmq8rc8uhugi6c47.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBb6KfOEYPAnu3rmHj451JB9YbCmLE6RCk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "372314590569-4b83da2kbgvfmml1tmq8rc8uhugi6c47.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "372314590569-6otl40aduigrjk7d12tbq5emghls28gg.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.drawerDemo"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
