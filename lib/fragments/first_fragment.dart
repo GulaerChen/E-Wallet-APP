@@ -6,6 +6,7 @@ import 'package:flutter/cupertino.dart';
 
 class FirstFragment extends StatelessWidget {
   double icon_size = 60.0;
+  double test_cover = 0;
   @override
 
   Widget build(BuildContext context) {
