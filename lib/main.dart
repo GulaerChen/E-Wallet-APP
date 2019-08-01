@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return new MaterialApp(
-      title: 'NavigationDrawer Demo',
+//      title: 'NavigationDrawer Demo',
       theme: new ThemeData(
         primarySwatch: Colors.teal,
       ),

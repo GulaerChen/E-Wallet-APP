@@ -10,8 +10,7 @@ class DrawerItem {
 
 class HomePage extends StatefulWidget {
   final drawerItems = [
-//    new DrawerItem("My Wallets", Icons.account_balance_wallet),
-    new DrawerItem("MyWallet", Icons.account_balance_wallet),
+    new DrawerItem("MyWallets", Icons.account_balance_wallet),
     new DrawerItem("History", Icons.history),
   ];
 
