@@ -66,8 +66,9 @@ class FirstFragment extends StatelessWidget {
   var dID, fromID, moneyFrom, moneyType;
   final name2id = Map<String, String>();
   final name2type = Map<String, String>();
-  final name2balance = Map<String, int>();
+  var name2balance = Map<String, int>();
   final id2name = Map<String, String>();
+  final id2type = Map<String, String>();
 
   Widget _buildList(BuildContext context, List<DocumentSnapshot> snapshot) {
     return ListView.builder(
@@ -86,6 +87,7 @@ class FirstFragment extends StatelessWidget {
         name2balance.putIfAbsent(name,() => balance);
 
         id2name.putIfAbsent(id.toString(),() => name);
+        id2type.putIfAbsent(id.toString(),() => type);
 
         return Card(
           child: Container(
@@ -276,6 +278,7 @@ class FirstFragment extends StatelessWidget {
             actions: <Widget>[
               new FlatButton(
                 onPressed: () async {
+                  getTime();
                  if (name2id[toWallet]==null){
                    String warning = "Wallet is not exist.";
                    cannotDo(context,warning);
@@ -288,18 +291,22 @@ class FirstFragment extends StatelessWidget {
                  }
                  else {
                    if((moneyFrom - transferMoney)>=0) {
+                     print('transfer money');
                      Firestore.instance.collection('/demo/gulaer/wallets')
                          .document(fromID).updateData({
                        'balance': moneyFrom - transferMoney,
                      });
+                     name2balance[id2name[fromID]] -= transferMoney;
                      Firestore.instance.collection('/demo/gulaer/wallets')
                          .document(name2id[toWallet]).updateData({
                        'balance': name2balance[toWallet] + transferMoney,
                      });
+                     name2balance[toWallet] += transferMoney;
                      Firestore.instance.collection('/demo/gulaer/actions')
                          .document().setData({'action': 'transfer',
                                               'walletFrom': id2name[fromID],
                                               'walletTo': toWallet,
+                                              'type': id2type[fromID],
                                               'transferMoney': transferMoney,
                                               'time': nowTime,
                                               });
@@ -327,7 +334,7 @@ class FirstFragment extends StatelessWidget {
 
   void getTime(){
     var now = new DateTime.now();
-    var formatter = new DateFormat('yyyy-MM-dd HH:mm');
+    var formatter = new DateFormat('MM-dd HH:mm');
     nowTime = formatter.format(now);
   }
 }

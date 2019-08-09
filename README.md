@@ -1,16 +1,11 @@
-# drawer_demo
+# E-Wallet
 
-A new Flutter application.
+## This is a E-wallet APP, code by Flutter(Dart) and use Firebase to its backend.
 
-## Getting Started
+Have 2 pages,
 
-This project is a starting point for a Flutter application.
+My wallet: 
+the content of wallets, also you can add/delete wallet or transfer money in this page.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+History: 
+the actions you do in history.
