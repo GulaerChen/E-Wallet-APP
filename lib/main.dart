@@ -1,8 +1,9 @@
 import 'package:drawer_demo/pages/home_page.dart';
 import 'package:flutter/material.dart';
 
-//void manin(){
-// return runApp(new MyApp());
+//
+//void main(){
+//  return runApp(new MyApp());
 // }
 
 void main() => runApp(new MyApp());
