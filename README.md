@@ -6,33 +6,62 @@
   
   1. My wallet: the content of wallets, also you can add/delete wallet or transfer money in this page.
   
-  ![image](https://github.com/GulaerChen/FlutterAPP/blob/master/MyWallets.PNG)
+  <p align="center">
+  <img width="250" height="400" src="https://github.com/GulaerChen/FlutterAPP/blob/master/MyWallets.PNG">
+  </p>
   
-  - transfer money
+  #### Add
   
-  ![image](https://github.com/GulaerChen/FlutterAPP/blob/master/transfer.PNG)
+  <p align="center">
+  <img width="250" height="400" src="https://github.com/GulaerChen/FlutterAPP/blob/master/add.PNG">
+  </p>
   
-  - transfer to non-exist wallet
-
-  ![image](https://github.com/GulaerChen/FlutterAPP/blob/master/transferNotExist.PNG)
+  - when add re-name wallet
   
-  - transfer money > remain
+  <p align="center">
+  <img width="250" height="400" src="https://github.com/GulaerChen/FlutterAPP/blob/master/addRepeate.PNG">
+  </p>
   
-  ![image](https://github.com/GulaerChen/FlutterAPP/blob/master/trasferNoEnough.PNG)  
-  
-  - transfer different type of money
-  
-  ![image](https://github.com/GulaerChen/FlutterAPP/blob/master/trasferDifferent.PNG)  
+  #### Delete
   
   - when wallet is non-empty, it can't be deleted.
   
-  ![image](https://github.com/GulaerChen/FlutterAPP/blob/master/delete1.PNG)
+  <p align="center">
+  <img width="250" height="400" src="https://github.com/GulaerChen/FlutterAPP/blob/master/delete1.PNG">
+  </p>
   
   - double check when delete wallet.
   
-  ![image](https://github.com/GulaerChen/FlutterAPP/blob/master/delete2.PNG)
+  <p align="center">
+  <img width="250" height="400" src="https://github.com/GulaerChen/FlutterAPP/blob/master/delete2.PNG">
+  </p>
 
+  #### Transfer
+  
+  <p align="center">
+  <img width="250" height="400" src="https://github.com/GulaerChen/FlutterAPP/blob/master/transfer.PNG">
+  </p>
+  
+  - transfer to non-exist wallet
+
+  <p align="center">
+  <img width="250" height="400" src="https://github.com/GulaerChen/FlutterAPP/blob/master/transferNotExist.PNG">
+  </p>
+  
+  - transfer money > remain
+  
+  <p align="center">
+  <img width="250" height="400" src="https://github.com/GulaerChen/FlutterAPP/blob/master/trasferNoEnough.PNG">
+  </p>
+  
+  - transfer different type of money
+  
+  <p align="center">
+  <img width="250" height="400" src="https://github.com/GulaerChen/FlutterAPP/blob/master/trasferDifferent.PNG">
+  </p>
 
   2. History: the actions you do in history.
   
-  ![image](https://github.com/GulaerChen/FlutterAPP/blob/master/history.PNG)
+  <p align="center">
+  <img width="250" height="400" src="https://github.com/GulaerChen/FlutterAPP/blob/master/history.PNG">
+  </p>
