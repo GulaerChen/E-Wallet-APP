@@ -30,7 +30,6 @@ class FirstFragment extends StatelessWidget {
       home: Scaffold(
         backgroundColor: Colors.black,
         body: _buildBody(context),
-
         bottomNavigationBar: BottomAppBar(
           color: Colors.white,
           child: Row(
