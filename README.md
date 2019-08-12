@@ -1,3 +1,17 @@
+
+- Note
+
+  [Flutter Notes](https://hackmd.io/BC0uPt2wTHqVuNINTdy4lg)
+
+- Refference
+
+  1. [Flutter Documentation](https://flutter.dev/docs)
+  2. [Flutter github](https://github.com/flutter)
+  3. [flutter 教學 教程 基礎篇](https://www.youtube.com/watch?v=tj8zK9tRWdQ&list=PLt85kdOx9ozWwcy6FVOquYNMah12FTWbP&index=1)
+  4. [Dart packages](https://pub.dev/)
+  5. [Flutter: Setting up a Navigation Drawer with Multiple Fragments (Widgets)](https://medium.com/@kashifmin/flutter-setting-up-a-navigation-drawer-with-multiple-fragments-widgets-1914fda3c8a8)
+
+
 # E-Wallet
 
 ## This is an E-wallet APP, the code is by Flutter and it uses Firebase for the backend.
@@ -65,3 +79,5 @@
   <p align="center">
   <img width="250" height="400" src="https://github.com/GulaerChen/FlutterAPP/blob/master/history.PNG">
   </p>
+
+
